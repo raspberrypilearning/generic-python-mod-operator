@@ -1,19 +1,18 @@
-## Introduction
+The modulo or 'mod' operator divides one number by another and returns the remainder. The symbol to use is `%`.
 
-Add project description here. What will learners be making?
+```python
+remainder = 5 % 2
+print(remainder)
 
-### What you will make
+>> 1
+```
 
-Add something here to showcase here, for example:
+The calculation 5 / 2 is performed, and the remainder is returned. So in this case, 2 goes into 5 twice, with 1 left over as the remainder, hence 1 is the result.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+You can use mod to check whether a number is a multiple of another number. If it is, the remainder will be 0, like in this example:
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+```python
+test_number = 50
+if test_number % 5 == 0:
+    print("This is a multiple of 5")
+```
