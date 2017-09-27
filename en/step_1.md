@@ -1,4 +1,4 @@
-The modulo or 'mod' operator divides one number by another and returns the remainder. The symbol of this operator is `%`.
+The modulo or mod operator divides one number by another and returns the remainder. The symbol of this operator is `%`.
 
 ```python
 remainder = 5 % 2
